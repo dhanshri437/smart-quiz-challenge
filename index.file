@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Quiz Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>💡 Smart Quiz Challenge</h1>
+    <div id="timer-display">⏱️ Time Left: 30s</div>
+    <div id="question-box">Loading question...</div>
+    <div id="options-box"></div>
+    <div id="feedback-box"></div>
+    <div id="hint-box"></div>
+    <button id="restart-btn" style="display:none;">🔁 Restart Quiz</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
