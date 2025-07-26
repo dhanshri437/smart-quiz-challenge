@@ -1,0 +1,75 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  transition: background 0.5s ease-in-out;
+}
+
+.game-container {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+#question-box {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.option-btn {
+  display: block;
+  margin: 10px auto;
+  padding: 12px 20px;
+  width: 100%;
+  background-color: #ffffff30;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.option-btn:hover {
+  background-color: #ffffff50;
+}
+
+#feedback-box {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+#hint-box {
+  margin-top: 10px;
+  font-style: italic;
+  color: #ffeb3b;
+}
+
+#timer-display {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+#restart-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #00b894;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#restart-btn:hover {
+  background-color: #019875;
+}
